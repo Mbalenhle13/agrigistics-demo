@@ -19,6 +19,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 # Challenges Faced
 
-- The 'ngx-filter-pipe' does not work (which I've used many times before) however there seems to be some compatability issues with Angular 18 or perhaps my project set up. I was looking to create a custom filter before time ran out.
-- It was challenging to attempt to match the styling to the Figma file within 3 hours (assuming that the 3 hours included project set up and code uploading to github), hence I prioritised functionality over design.
+- Implementing the 'ngx-filter-pipe' for multiple columns. This functionalituy does not work exactly how I had intended creating a custom filter to search across multiple columns could have worked better.
+- It was challenging to attempt to match the styling to the Figma file within 3 1/2 hours (assuming that the 3 1/2 hours included project set up and code uploading to github), hence I prioritised functionality over design.
 

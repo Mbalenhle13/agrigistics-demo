@@ -17,13 +17,12 @@ export type EmployeeDetails = {
   standalone: true,
   imports: [CommonModule, FormsModule,OrderModule, FilterPipeModule],
   templateUrl: './data-table.component.html',
-  styleUrl: './data-table.component.scss',
   encapsulation: ViewEncapsulation.None
 })
 export class DataTableComponent {
   sortType: string = 'name';
   sortReverse: boolean = false;
-  searchEmployee: string = '';
+  searchEmployee: any = { name: '' };
 
   employees: EmployeeDetails[] = [
     {name: 'Cali M', description: 'Lorem Ipsum', type: 'Group 1', quantity: 2, rate: 'R20.00'},
